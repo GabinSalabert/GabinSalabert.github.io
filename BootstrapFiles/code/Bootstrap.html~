@@ -1,0 +1,399 @@
+'<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>Site vitrine Gsx</title>
+	    <!-- Bootstr ap -->
+	    <link rel="icon" href="logo.png"/>
+    	 <link href="../css/bootstrap.min.css" rel="stylesheet">
+		 <link href="../css/Main.css" rel="stylesheet">
+		 <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		 <link rel="stylesheet" href="../css/bootstrap.css"> 
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <script src="../js/jquery.min.js"></script> 
+		 <script src="../js/bootstrap.js"></script> 
+		 <script src="../js/bootstrap.min.js"></script>
+	  </head>
+
+
+ 
+
+  <!-- /////////////////////////////////// HEAD //////////////////////////////////////// -->
+
+
+
+	<body>
+		<img id="bg" src="fond.jpg" alt="bg">
+		<div class="panel panel-default">
+		<div id="one"></div>
+ 	 		<div id="lol" class="panel-body">
+    			<p>PRESENTATIONS</p>
+    			<div class="progress">
+  					<div id="bar1" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20" style="width: 100%">
+   					100%
+  					</div>
+				</div>
+  			</div>		
+	  			<div id="lol2" class="panel-body">
+	  				<div id="two"></div>
+	    			<p id="tex">GALLERY</p>
+	    			<div class="progress">
+	  					<div id="bar2" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20" style="width: 100%">
+	   					100%
+	  					</div>
+					</div>
+					<div class="row">
+	  					<div class="col-sm-10">
+	    					<div class="thumbnail">
+	      					<img class="img-circle" src="rs6.jpg" alt="...">
+	      					<div class="merde" class="caption">
+	        						<h3>RS6</h3>
+	        						<p>The Audi RS 6 quattro, commonly referred to as the RS6 ' is a mid-size sports-focused executive car, produced by the high-performance private subsidiary company quattro GmbH, for Audi AG, part of the Volkswagen Group.
+									The first and second versions of the RS6 were produced as a five-door five-seat "Avant".</p>
+	        						<p><a href="#" class="btn btn-primary bou" role="button">Details</a> <a href="#" class="btn btn-default bo" role="button">Web</a></p>
+	      					</div>
+	    					</div>
+	    					<div class="thumbnail">
+	      					<img class="img-circle" src="rs4.jpg" alt="...">
+	      					<div class="merde" class="caption">
+	        						<h3>RS4</h3>
+	        						<p>The Audi RS4 quattro is the top tier and highest performing version of some specific generations of the Audi A4 range of automobiles. It is a sports-focused compact executive car produced by Audi's high-performance private subsidiary quattro GmbH, in limited numbers.</p>
+	        						<p><a href="#" class="btn btn-primary bout" role="button">Details</a> <a href="#" class="btn btn-default bo" role="button">Web</a></p>
+	      					</div>
+	    					</div>
+	    					<div class="thumbnail">
+	      					<img class="img-circle" src="rs3.jpg" alt="...">
+	      					<div class="merde" class="caption">
+	        						<h3>RS3</h3>
+	        						<p>The Audi RS 3 Sportback is the hot hatch version of the Audi A3 compact luxury hatchback. It had a limited production between 2011 and 2012 and was available exclusively in 5 door hatchback form. In fact, the Audi RS 3 Sportback is one of the few 5 door hot hatches in the Asphalt series. She's usually enjoyed by young men who like sport's cars.</p>
+	        						<p><a href="#" class="btn btn-primary bouto" role="button">Details</a> <a href="#" class="btn btn-default bo" role="button">Web</a></p>
+	      					</div>
+	    					</div>
+	  					</div>
+					</div>
+					<div class="alert fade in a">
+						<button class="close" type="button" data-dismiss="alert">X</button>
+						<strong>Holy fuck !</strong>
+						What the hell are you doing ? I hope you'll click and buy 'em faggot !	
+						<button class="close" type="button" data-dismiss="alert">X</button>
+						<strong>That was amazing !</strong>
+						It's a joke man, relax. I'm gonna kill you in few minutes !					
+					</div>
+					<div class="alert fade in a">
+						<button class="close" type="button" data-dismiss="alert">X</button>
+						<strong>That was amazing !</strong>
+						It's a joke man, relax. I'm gonna kill you in few minutes !					
+					</div>
+					<div class="alert alert-block alert-error fade in a">
+						<button class="close" type="button" data-dismiss="alert">X</button>
+						<h5 class="alert-heading"><strong>I heard you !</strong></h5>
+						<p>i will kick your ass so stronger that you couldn't sit anymore !</p>
+						<p>
+							<a id="watch" class="btn btn-danger" href="#three">Watch this bitch!</a>
+							<a id="ogo" class="btn" href="#one">Or get out.</a>						
+						</p>			
+					</div>
+	  			</div>
+	  		<div id="three" class="ptdr">
+	  			<div id="lol3" class="panel-body">
+	    			<p>VIDEOS</p>
+	    			<div class="progress">
+	  					<div id="bar3" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20" style="width: 100%">
+	   					100%
+	  					</div>
+					</div>
+					<div id="div">
+						<div class="media">
+  							<div id="pad" class="media-left media-middle">
+    							<a href="#lol3"</a>
+      							<video id="cul" controls src="r8.mp4" alt="...">
+    							</a>
+  							</div>
+  							<div class="media-body">
+    							<h4 class="media-heading"> <strong>Audi RS8's performances</strong></h4>
+   					 	 	The Audi R8 was initially equipped with a 4.2 litre V8 engine. Specifically, it is an all-aluminium alloy 32-valve (four valves per cylinder) petrol engine, utilising Fuel Stratified Injection (FSI),and has a displacement of 4,163 cubic centimetres (254.0 cu in).
+   					 	 	It develops a motive power output of 420 metric horsepower (309 kW; 414 bhp) (Directive 80/1269/EEC),and generates 430 newton metres (317 lbf·ft) of torque, on 98 RON 'Super Unleaded' petrol.
+   					 	 	It uses two chain-driven double overhead camshafts (DOHC) per cylinder bank, and utilises variable valve timing for both inlet and exhaust camshafts.
+   					 	 	The 4 wheel drive system is biased towards the rear; it sends 30% of its power to the front wheels and 70% to the rear. 
+   					 		Many publications were hailing it as the first car to truly be able to beat the Porsche 997—considered by many to be one of the best sports cars ever made, and a leader in its class. Initial comparison tests have proven quite positive in this respect;
+   					 	 	Evo Magazine listed it as a "supercar", compared the R8 to the Porsche 911 Carrera 4S, Aston Martin V8 Vantage, and BMW M6 and after praising the R8's "amazing stability, traction and grip, unparalleled steering accuracy and bite, (and) its uncannily flat and disturbance-free ride", claimed that as a result of "the sublime effortlessness of it all", the Audi is a better sports car.
+   					 	 	The article concluded that "Audi humbles Porsche. A new dawn starts today".
+							 	Other publications have also written similar reviews of the Audi beating the Porsche in comparison tests.
+							 	In a half mile drag race conducted by Battle of the Supercars between the R8 and a 997 Carrera S, the Porsche won, crossing the line just a half metre before the R8.
+							 	However, the R8 easily beat the Porsche around Top Gear's test track.
+							 	The television show Top Gear compared the Nissan GT-R to the R8 V8, and remarked that the R8 was "simultaneously less impressive and yet somehow more involving". 
+							 	On the R8 they wrote that "it rewards driver input", calling it "fantastic in a way that will appeal more to true car enthusiasts", but also remarked that it (the V8 model) was "much slower", and the GT-R was cheaper.
+							 	On their test track, the car performed better than a Lamborghini Gallardo and an Aston Martin DB9 	
+							 On Bedford Autodrome, tested by Evo Magazine, the R8 was faster than the Lamborghini Gallardo.
+  							</div>
+						</div>
+						<div class="media">
+  							<div class="media-left media-middle">
+    							<a href="#lol3">
+      							<video controls src="rs5.mp4" alt="...">
+    							</a>
+  							</div>
+  							<div class="media-body">
+    							<h4 class="media-heading xd"><strong>Audi RS5's performances</strong></h4>
+   					 		Like the proverbial iron fist in a velvet glove, the RS5 packs a powerful punch, boasting a 450-hp 4.2-liter V-8 that loves to rev. 
+   					 	 	There is a seven-speed dual-clutch transmission, Quattro all-wheel drive, and a sport-tuned suspension, all on hand for maximum driving enjoyment. 
+   					 	 	The RS5 is available as coupe or as a cabriolet for those who like a little sun with their fun. 
+   					 	 	While it’s pricey—and could still use a bit more soul—few cars combine speed and beauty at so high a level as the RS5.
+   					 	 	The Audi RS5 is what happens when you give the gang at Quattro GmbH, Audi’s in-house performance division, a long leash and an open checkbook. 
+   					 	 	While it shares its basic silhouette with the comparatively pedestrian A5/S5 coupe, the RS5 is an entirely different beast. At its core is a 450-hp 4.2-liter naturally aspirated V-8 that loves to rev to its 8300-rpm redline. 
+   					 	 	(For those keeping score, that’s more than double the 220 horsepower produced by the turbocharged 2.0-liter four found in the A5 and 117 more than the 333-hp 3.0-liter supercharged V-6 in the S5.) 
+   					 	 	All-wheel drive is standard, and Audi’s seven-speed S tronic dual-clutch automatic is the sole transmission choice.
+							 	Although the RS5-specific front fascia, large wheel flares, and slightly wider rear track hint at its pedigree, Audi plays this one close to the vest. The retractable rear wing, which deploys at about 75 mph, is one of the few extroverted elements. 
+							 	Well, that, and the finely tuned growl from the optional sport exhaust, which added $1000 to the bottom line of the 2015 Audi RS5 model we recently drove. Likewise, the interior keeps things on the down low, sharing the same basic layout and instrumentation as the A5 and S5. 
+							 	The materials imbue a reserved, high-quality feel, and the fit and assembly is befitting of a vehicle costing $70K-plus.
+							 	By the time the RS5 made it stateside, it had already spent two years burning up the roads on the Continent. We came away from a drive of the 2011 model so impressed we booked a return trip to Europe with the sole purpose of pitting the Audi RS5 against the Cadillac CTS-V and the BMW M3. 
+							 	But while those cars have moved on—the M3 coupe is now the M4 and the CTS-V is all-new for 2016 and now sedan-only—the changes to the RS5 are minimal. 
+							 	Up	dates for 2015 include optional goodies such as matte-black 20-inch five-spoke wheels and red brake calipers, as well as the fact that blind-spot warning joins the $2900 Technology package and the Black Optic Plus package has been updated to include a carbon-fiber engine cover.   
+  							</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left media-middle">
+    							<a href="#lol3">
+	      						<video controls type="video/mp4"  src="rs3.mp4" alt="...">
+    							</a>
+  							</div>
+  							<div class="media-body">
+	    						<h4 class="media-heading"><strong>Audi RS3's performances</strong></h4>
+   					 	  	We’ve been gazing at the 400-hp Audi RS3 Sportback from afar for a while now, but the view will get a lot better when our version of the German pocket rocket launches in the United States next summer. 
+   					 	  	Before it does that, however, Audi thought it best to put the RS3’s turbocharged inline-five and other performance tweaks into the A3’s sedan body, because, well, this is America, and we all know how Americans feel about hatchbacks, right?
+							  	The official announcement serves as confirmation of what Audi has said several times: that it will offer Americans a version of the RS3 eventually. 
+							  	Even so, it’s nice to see the hotted-up sedan in the metal. The four-door, betrunked RS3 looks sharp and even a bit menacing with its extra vents up front, attractive 19-inch wheels, and a couple of huge exhaust outlets. 
+							  	The Quattro lettering included on every Audi RS model is prominently displayed on the lower grille, and the interior has red stitching throughout, with leather sport seats and several RS logos so you won’t mistake the car for a plebeian S3.
+							  	As for the componentry, it’s all relatively familiar stuff. The 2.5-liter turbo five with 400 horsepower and 354 lb-ft of torque is also used in the TT RS, Audi’s sports coupe that shares its MQB platform with the entire A3 range. 
+							  	Audi says the combination of the five-cylinder with a seven-speed dual-clutch automatic transmission will get the RS3 from zero to 62 mph in 4.1 seconds; considering the last TT RS went from zero to 60 mph in well under 4.0 seconds, packing 40 fewer horses, we wouldn’t be surprised if the RS3 proves to be a bit quicker than Audi’s estimate. 
+							  	A top speed of 174 mph is also an impressive metric.
+							  	The RS3’s Quattro all-wheel-drive system will distribute torque with a stronger bias toward the rear axle (Audi doesn’t give specific numbers), and this car rides an inch lower than a regular A3. 
+							  	Standard 235/35 tires wrap around those hot-looking wheels, while a slightly curious setup with wider 255/30 tires up front will be an option, likely to better balance the car and fight understeer. Carbon-ceramic brake rotors also are an option for the front axle.
+							  	There’s no word yet on pricing for the RS3, but don’t be surprised if the RS3 starts well above $50,000. The standard S3, with 108 horsepower less than the RS3, costs $43,850 to start, and RS models typically command significant price premiums over their S equivalents. 
+							  	For instance, the RS7 costs $30,800 more than the S7, albeit in a higher price bracket. 
+							  	In that price arena, the RS3 will have its work cut out for it contending with the BMW M2 and the Mercedes-AMG CLA45. At least it has both of those cars beat on power (for now) and comes standard with that unusual five-cylinder charm.
+  							</div>
+						</div>
+	  				</div>	
+				</div>
+			</div>
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>		
+			<nav class="navbar navbar-default navbar-fixed-top navbar navbar-inverse">
+		  		<div class="container-fluid">
+		    	<!-- Brand and toggle get grouped for better mobile display -->
+		    	<div class="navbar-header">
+		      	<a id="conteneur" class="navbar-brand" href="#one">
+		      		<img id="logo" src="logo.png" alt="logo">
+		      		<p>Gsx : Beauty creator</p>
+		      	</a>
+		    	</div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav">
+		        		<li id="band"><a href="#one">Presentations</a></li>
+		        		<li><a href="#two">Gallery</a></li>
+		        		<li><a href="#lol3">Vidéos</a></li>
+		        		<li class="der"><a href="#Con">Contact<span class="caret"></span></a>
+		        	  		  <ul class="dropdown-menu">
+		            			<li class="list"><a href="Con">Tel. & @mail</a></li>
+		            			<li class="liste"><a href="Form">Form</a></li>
+		          		  </ul>
+		       		</li>
+		      	</ul>
+		      	<form class="navbar-form navbar-left">
+		        		<div class="form-group">
+		          		<input type="text" class="form-control" placeholder="Search">
+		        		</div>
+		        		<button type="submit" class="btn btn-default">Search</button>
+		      	</form>
+		      	<ul class="nav navbar-nav navbar-right">
+		        		<li><a href="#">Règlement</a></li>
+		          		<li class="der"><a href="#">Compte<span class="caret"></span></a>
+		          			<ul class="dropdown-menu">
+		            			<li class="list"><a href="#">Info personelles</a></li>
+		            			<li class="lis"><a href="#">Données bancaire</a></li>
+		            			<li class="lis"><a href="#">Modifier</a></li>
+		            			<li class="liste"><a href="#">Déconnecter</a></li>
+		          			</ul>
+		        			</li>
+		      	</ul>
+		  		</div><!-- /.container-fluid -->
+			</nav>
+
+
+
+	<!-- /////////////////////////////////// CARROUSEL //////////////////////////////////////// -->
+
+
+			<div id="cool" class="container"> 
+
+		    <!-- création d'un diaporama 
+		        data-intervalvitesse : du défilement des photos 1s 
+		        data-pause : ajout d'une pause sur le défilement des photos
+		        data-wrap="false" : défilement des photos une seule fois -->
+		    	<div id="exemple-diaporama" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover"> 
+
+		        	<ol class="carousel-indicators"> 
+			          <!-- classe active pour déterminer la première image du diaporama -->
+			          <li data-target="#exemple-diaporama" data-slide-to="0" class="active"></li> 
+			          <li data-target="#exemple-diaporama" data-slide-to="1"></li> 
+			          <li data-target="#exemple-diaporama" data-slide-to="2"></li> 
+			        </ol> 
+
+		        
+		        
+			        <div class="carousel-inner"> 
+
+			            <!-- classe active pour déterminer la première image du diaporama -->
+			            <div class="item active"> 
+			              <img src="rs5.jpg" alt=""> 
+			              <div class="carousel-caption"> 
+			              <h3>RS5</h3> 
+			              <p>Audi RS5 presentation</p> 
+			              <p><button class="btn btn-primary">More</button></p> 
+			              </div> 
+			            </div> 
+
+
+			            <div class="item"> 
+			              <img src="r8.jpg" alt=""> 
+			              <div class="carousel-caption"> 
+			              <h3>R8</h3> 
+			              <p>Audi R8 presentation</p> 
+			              <p><button class="btn btn-primary">More</button></p> 
+			              </div> 
+			            </div>
+
+
+			            <div class="item"> 
+			              <img src="rs7.jpg" alt=""> 
+			              <div class="carousel-caption"> 
+			              <h3>RS7</h3> 
+			              <p>Audi RS7 presentation</p> 
+			              <p><button class="btn btn-primary">More</button></p> 
+			              </div> 
+			            </div> 
+
+			        </div> 
+
+
+			        <!-- boutons suivant précédent pour les images -->
+			        <a class="left carousel-control" href="#exemple-diaporama" data-slide="prev"> 
+			        <span class="glyphicon glyphicon-chevron-left"></span> 
+			        </a> 
+			        
+			        <a class="right carousel-control" href="#exemple-diaporama" data-slide="next"> 
+			        <span class="glyphicon glyphicon-chevron-right"></span> 
+			        </a> 
+			        
+			        
+			        <!-- boutons pour stopper / reprendre le défilement des photos -->
+			        <div id="carouselButtons">
+			          <button id="BtnPlay" type="button" class="btn btn-default btn-xs">
+			          <span class="glyphicon glyphicon-play"></span>
+			          </button>
+
+			          <button id="BtnPause" type="button" class="btn btn-default btn-xs">
+			          <span class="glyphicon glyphicon-pause"></span>
+			          </button>
+			        </div>
+
+			    </div>
+			</div>
+			<div>
+				<button id="bouton" class="btn"><a id="link" data-toggle="popover" title="Hi!" data-content="What a useles thing..">CLICK GAY</a></button>
+			</div>
+			
+<!-- /////////////////////////////////// JAVA SCRIPT //////////////////////////////////////// -->
+
+
+			<script type="text/javascript"> 
+				$(document).ready(function()
+				{ 
+	    			/**
+	     			* Clic sur le diaporama
+	     			* @return {[type]} [description]
+	     			*
+	    			*/
+	    			$("#exemple-diaporama").click( function(){ 
+	         
+	        		$("#exemple-diaporama").carousel("pause"); // met en pause le défilement des photos
+	        		$("#exemple-diaporama").carousel("cycle"); // reprend défilement des photos
+	          
+	   			}); 
+
+	    			/**
+	     			* Clic sur le boutons play du diaporama
+	     			* @return {[type]} [description]
+	     			*/
+	    			$('#BtnPlay').click(function ()
+	    			{
+	        			$('#exemple-diaporama').carousel('cycle');
+	    			});
+
+
+	   			/**
+	     			* Clic sur le boutons play du diaporama
+	     			* @return {[type]} [description]
+	     			*/
+	    			$('#BtnPause').click(function ()
+	    			{
+	        			$('#exemple-diaporama').carousel('pause');
+	    			});
+
+
+				}); 
+			</script>
+	
+		<script type="text/javascript">
+			$(document).ready(function() {
+    			$('body').on('click', '.navbar-nav li a', function(e) {
+        			$('li.active').removeClass('active');
+        			var link = $(this);
+        			link.closest('li').addClass('active');
+        			// Scroll animation
+        			$('html, body').animate( { scrollTop: $(link.attr('href')).offset().top }, 750 );
+        			return false;
+    			});
+
+    			//Scrollspy
+    			$('body').scrollspy({ target: '#menu' });
+			});
+		</script>
+		
+		<script type="text/javascript">
+			$(".alert").alert()
+		</script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+    			$('body').on('click', '.alert-block p a', function(e) {
+        			$('p.active').removeClass('active');
+        			var link = $(this);
+        			link.closest('p').addClass('active');
+        			// Scroll animation
+        			$('html, body').animate( { scrollTop: $(link.attr('href')).offset().top }, 750 );
+        			return false;
+    			});
+
+    			//Scrollspy
+    			$('body').scrollspy({ target: '#menu' });
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+    			$('[data-toggle="popover"]').popover();
+			});
+		</script>
+
+	</body>
+</html>
