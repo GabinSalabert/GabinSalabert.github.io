@@ -124,7 +124,7 @@
 
 #exemple-diaporama
 {
-	border: 3px solid #000060;
+	border: 1px solid blue;
 	margin-top: 19%;
 }
 
@@ -137,8 +137,8 @@
 {
 	margin-top: 1.5%;
 	padding-bottom: 6%;
-	border-bottom: 3px solid #000060;  
-	border-top: 3px solid #000060;
+	border-bottom: 1px solid blue;  
+	border-top: 3px solid blue;
 	color: #FFE4B5;
 	position: absolute;
 	width: 100%;
@@ -148,17 +148,17 @@
 
 #txtpres
 {
-	font-size: 25px;
+	font-size: 23px;
 	margin-top: 2%;
 	margin-left: 43%;
-	color: #000060;
+	color: blue;
 	text-decoration: underline overline;
 }
 
 #lol2
 {
 	margin-top: 100%;
-	padding-bottom: 3%;
+	padding-bottom: 8%;
 	border-bottom: 3px solid red;  
 	color: #FFE4B5;
 	position: absolute;
@@ -176,6 +176,7 @@
 {
 	font-size: 25px;
 	margin-left: 45%;
+	margin-top: 1%%;
 	color: red;
 	text-decoration: underline overline;
 }
@@ -264,16 +265,17 @@
 
 .thumbnail
 {
+	margin-top: 2.5%;
 	background-color: black !important;
 	width: 70%;
-	height: 1100%;
+	border: 2px solid red !important;
 }
 
 .thumbnail img
 {
 	height: 400px;
 	width: 300px;
-	background-color: black;
+	border: 3px solid #1C1C1C;
 }
 
 .col-sm-10
@@ -289,6 +291,11 @@
 	background-color: black;
 	display: flex;
 	flex-direction: column;
+}
+
+.cadre p
+{
+	margin-left: 2.5%;
 }
 
 .navbar .navbar-default .navbar-fixed-top .navbar.navbar-inverse
@@ -392,7 +399,7 @@ video
 #bouton
 {
 	background-color: #000060;
-	border: 1px solid #000060;
+	border: 1px solid white;
 	position: absolute;
 	margin-left: 48%;
 	margin-top: -28%;
@@ -403,10 +410,10 @@ video
 	color: white;
 }
 
-.con
+.formu
 {
 	margin-left: 20%;
-	margin-top: 5%;
+	margin-top: 4.5%;
 	margin-right: 20%;
 }
 
