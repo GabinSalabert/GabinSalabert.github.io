@@ -87,12 +87,12 @@
 
 .container
 {
-	height: 500px;
+	height: 60%;	
 }
 
 .carousel .item 
 {	
-  	height: 350px;
+  	height: 100%;
 }
 
 
@@ -125,7 +125,7 @@
 #exemple-diaporama
 {
 	border: 1px solid blue;
-	margin-top: 19%;
+	margin-top: 14%;
 }
 
 .panel panel-default
@@ -135,10 +135,10 @@
 
 #lol
 {
-	margin-top: 1.5%;
+	margin-top: 4%;
 	padding-bottom: 6%;
 	border-bottom: 1px solid blue;  
-	border-top: 3px solid blue;
+	border-top: 1px solid blue;
 	color: #FFE4B5;
 	position: absolute;
 	width: 100%;
@@ -149,7 +149,7 @@
 #txtpres
 {
 	font-size: 23px;
-	margin-top: 2%;
+	margin-top: 1.5%;
 	margin-left: 43%;
 	color: blue;
 	text-decoration: underline overline;
@@ -158,8 +158,10 @@
 #lol2
 {
 	margin-top: 100%;
+	padding-top: -15%;
 	padding-bottom: 8%;
 	border-bottom: 1px solid red;  
+	border-top: 1px solid red; 
 	color: #FFE4B5;
 	position: absolute;
 	width: 100%;
@@ -240,7 +242,7 @@
 
 #lol5
 {
-	margin-top: 400%;
+	margin-top: 430%;
 	padding-bottom: 7%;
 	border-top: 1px solid purple;
 	border-bottom: 1px solid purple;  
@@ -404,7 +406,7 @@ video
 	border: 1px solid white;
 	position: absolute;
 	margin-left: 48%;
-	margin-top: -28%;
+	margin-top: 15%;
 }
 
 #link
