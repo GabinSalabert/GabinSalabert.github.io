@@ -124,7 +124,7 @@
 
 #exemple-diaporama
 {
-	border: 1px solid blue;
+	border: 1px solid #6D8EA0;
 	margin-top: 14%;
 }
 
@@ -137,9 +137,9 @@
 {
 	margin-top: 4%;
 	padding-bottom: 6%;
-	border-bottom: 1px solid blue;  
-	border-top: 1px solid blue;
-	color: #FFE4B5;
+	border-bottom: 1px solid #6D8EA0;  
+	border-top: 1px solid #6D8EA0;
+	color: #6D8EA0;
 	position: absolute;
 	width: 100%;
 	height: 80px;
@@ -151,7 +151,7 @@
 	font-size: 23px;
 	margin-top: 1.5%;
 	margin-left: 43%;
-	color: blue;
+	color: #6D8EA0;
 	text-decoration: underline overline;
 }
 
@@ -160,8 +160,8 @@
 	margin-top: 100%;
 	padding-top: -15%;
 	padding-bottom: 8%;
-	border-bottom: 1px solid red;  
-	border-top: 1px solid red; 
+	border-bottom: 1px solid #DD1C1A;  
+	border-top: 1px solid #DD1C1A; 
 	color: #FFE4B5;
 	position: absolute;
 	width: 100%;
@@ -179,7 +179,7 @@
 	font-size: 23px;
 	margin-left: 46%;
 	margin-top: 1.5%;
-	color: red;
+	color: #DD1C1A;
 	text-decoration: underline overline;
 }
 
@@ -188,8 +188,8 @@
 	margin-top: 200%;
 	padding-top: 2%;
 	padding-bottom: 7%;
-	border-bottom: 1px solid yellow;  
-	color: #FFE4B5;
+	border-bottom: 1px solid #F58A07;  
+	color: #F3E9DC;
 	position: absolute;
 	width: 100%;
 	height: 80px;
@@ -204,7 +204,7 @@
 #txtvid
 {
 	font-size: 23px;
-	color: yellow;
+	color: #F58A07;
 	padding-top: 5px;
 	text-decoration: underline overline;
 }
@@ -213,7 +213,7 @@
 {
 	margin-top: 330%;
 	padding-bottom: 9%;
-	border-bottom: 1px solid green;  
+	border-bottom: 1px solid #C2E812;  
 	color: #FFE4B5;
 	position: absolute;
 	width: 100%;
@@ -231,21 +231,21 @@
 {
 	font-size: 23px;
 	margin-top: 1.5%;
-	color: green;
+	color: #C2E812;
 	text-decoration: underline overline;
 }
 
 .txtformu
 {
-	color: green;
+	color: #C2E812;
 }
 
 #lol5
 {
 	margin-top: 430%;
 	padding-bottom: 7%;
-	border-top: 1px solid purple;
-	border-bottom: 1px solid purple;  
+	border-top: 1px solid #8E8DBE;
+	border-bottom: 1px solid #8E8DBE;  
 	color: #FFE4B5;
 	position: absolute;
 	width: 100%;
@@ -256,7 +256,7 @@
 #txtcont
 {
 	font-size: 23px;
-	color: purple;
+	color: #8E8DBE;
 	margin-top: 0.2%;
 	text-decoration: underline overline;
 }
@@ -272,7 +272,7 @@
 	margin-top: 2.5%;
 	background-color: black !important;
 	width: 70%;
-	border: 2px solid red !important;
+	border: 2px solid #DD1C1A !important;
 }
 
 .thumbnail img
@@ -383,13 +383,13 @@ video
 
 .coulvid
 {
-	border: 1px solid yellow;
+	border: 1px solid #F58A07;
 }
 
 #underlineR8
 {
 	text-decoration: underline;
-	color: yellow;
+	color: #F58A07;
 }
 
 #ogo
@@ -424,7 +424,7 @@ video
 {
 	margin-top: -1%;
 	margin-right: -20%;
-	color: green;
+	color: #C2E812;
 }
 
 .hey
@@ -453,7 +453,7 @@ video
 .table-inverse
 {
 	color: white;
-	background-color: green;
+	background-color: #C2E812;
 }
 
 .table-striped tbody tr:nth-of-type(odd)
@@ -474,7 +474,7 @@ video
 
 #al
 {
-	border: 1px solid purple;
+	border: 1px solid #8E8DBE;
 	background-color: #1C1C1C;
 }
 
@@ -483,7 +483,7 @@ video
 	margin-top: 4%;
 	margin-right: 15%;
 	margin-left: 20%;
-	border: 1px solid purple;
+	border: 1px solid #8E8DBE;
 	text-align: center;
 	background-color: transparent;
 }
@@ -492,7 +492,7 @@ video
 {
 	text-align: center;
 	font-size: 100%;
-	border: 1px solid purple;
+	border: 1px solid #8E8DBE;
 	background-color: black;
 	color: white;
 }
@@ -500,26 +500,26 @@ video
 .about
 {
 	text-align: center;
-	border-bottom: 1px solid purple;
+	border-bottom: 1px solid #8E8DBE;
 }
 
 .bord
 {
-	border: 1px solid purple;
-	border-top: 1px solid purple;
+	border: 1px solid #8E8DBE;
+	border-top: 1px solid #8E8DBE;
 }
 
 table
 {
-	border: 1px solid purple;
+	border: 1px solid #8E8DBE;
 	background-color: black;
 	text-align: center;
 }
 
 thead
 {
-	border: 1px solid purple;
-	border-bottom: 1px solid purple;
+	border: 1px solid #8E8DBE;
+	border-bottom: 1px solid #8E8DBE;
 	text-align: right;
 	background-color: black;
 }
