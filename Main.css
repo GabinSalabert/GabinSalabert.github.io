@@ -4,7 +4,7 @@
 
 #body
 {
-	background-color: black;
+	background-color: #0E0F19;
 	overflow: hidden;
 }
 
@@ -36,50 +36,30 @@
 	margin-right: 1px;
 	border-left: none;
 	border-right: none;
-	color: white;
 }
 
 .list
 {
 	border-top: none;
 	border-bottom: 0.5px solid white;
-	color: white;
 }
 
 .liste
 {
+	border-top: none;
 	border-bottom: none;
-	border-top: 0.5px solid white;
-	color: white;
-}
-
-.lis a
-{
-	color: white;
-}
-
-.liste
-{
-	color: white;
-}
-
-.list
-{
-	color: white;
 }
 
 .der:hover ul
 {
 	display: inline;
-	background-color: #1C1C1C;
+	background-color: #0E0F19;
 }
 
 .dropdown ul 
 {
 	display: none;
-	color: white;
 }
-
 
 /*////////////////////////////////////// HTML //////////////////////////////////////*/
 
@@ -124,7 +104,7 @@
 
 #exemple-diaporama
 {
-	border: 1px solid #6D8EA0;
+	border: 1px solid #C4CAD0;
 	margin-top: 14%;
 }
 
@@ -137,9 +117,9 @@
 {
 	margin-top: 4%;
 	padding-bottom: 6%;
-	border-bottom: 1px solid #6D8EA0;  
-	border-top: 1px solid #6D8EA0;
-	color: #6D8EA0;
+	border-bottom: 1px solid #C4CAD0;  
+	border-top: 1px solid #C4CAD0;
+	color: #C4CAD0;
 	position: absolute;
 	width: 100%;
 	height: 80px;
@@ -151,7 +131,7 @@
 	font-size: 23px;
 	margin-top: 1.5%;
 	margin-left: 43%;
-	color: #6D8EA0;
+	color: #C4CAD0;
 	text-decoration: underline overline;
 }
 
@@ -305,6 +285,21 @@
 .navbar .navbar-default .navbar-fixed-top .navbar.navbar-inverse
 {
 	position: fixed;
+}
+
+.band
+{
+	background-color: #0E0F19;
+}
+
+#write
+{
+	color: #727072;
+}
+
+#write a
+{
+	color: #727072;
 }
 
 h3
