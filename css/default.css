@@ -871,7 +871,8 @@ properly.
 }
 
 .img-fluid{
-   width: 45%;
+   max-width: 48%;
+   height: auto;
 }
 
 .copyright li{

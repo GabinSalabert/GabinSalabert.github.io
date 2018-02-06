@@ -884,6 +884,9 @@ call-to-action .button {
    top: 17px;
 }
 
+#submit{
+  margin-left: 50%;
+}
 
 /* Twitter Feed */
 #twitter {
@@ -901,6 +904,10 @@ call-to-action .button {
    font: 13px/36px 'opensans-regular', Sans-serif;
    color: #474747 !important;
    border: none;
+}
+
+#res{
+  margin-left: 15%;
 }
 
 
