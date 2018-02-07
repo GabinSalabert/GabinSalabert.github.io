@@ -83,8 +83,8 @@
    <!-- About Section
    ================================================== -->
    <section id="about" class="sec">
-
-      <div id="myCarousel" class="carousel slide carousel-fade"" data-ride="carousel">
+    <div id="carousel-container">
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -98,7 +98,7 @@
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
             <div class="item active img-fluid">
-                <img src="https://i.gyazo.com/189f29a5f6ad770d47d5ba746aefaaba.png" alt="First Slide">
+                <img src="images/cook1.png" alt="First Slide">
             </div>
             <div class="item img-fluid">
                 <img src="https://i.gyazo.com/da2eb8c57788a96b15dd6c6ee8225f31.png" alt="Second Slide">
@@ -126,6 +126,7 @@
         <a class="carousel-control right" href="#myCarousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
+      </div>
     </div>
    </section> <!-- About Section End-->
 
@@ -252,7 +253,7 @@
           <div class="d-flex w-100 justify-content-between">
             <h5 class="or mb-1"><strong><bold><u>Langages informatique</u></bold></strong></h5>
           </div>
-          <p class="mb-1">Ruby, PHP, C, C# (WPF), C++, Java/JavaFx, SQL, PLSQL, ProC, Processing, Html (Bootstrap), Css, JavaScript, JQuerry.</p>
+          <p class="mb-1">Ruby, PHP, C, C# (WPF), C++, Java/JavaFx, SQL, PLSQL, ProC, Processing, Html (Bootstrap), Css, JavaScript, JQuerry, Python.</p>
           <small>Données pouvant être mises à jour.</small>
         </a>
         <a  class="pop list-group-item list-group-item-action flex-column align-items-start">
@@ -273,14 +274,14 @@
           <div class="d-flex w-100 justify-content-between">
             <h5 class="or mb-1"><strong><bold><u>Outils et atelier génie logiciel</u></bold></strong></h5>
           </div>
-          <p class="mb-1">Android Studio, Visual Studio, Eclipse, Tortoise-SVN, Github, Scilba, Sublime Text, NetBeans, Drupal...</p>
+          <p class="mb-1">Android Studio, Visual Studio, Eclipse, Tortoise-SVN, Github, Scilab, Sublime Text, NetBeans, Drupal, Arduino...</p>
           <small class="text-muted">Données pouvant être mises à jour.</small>
         </a>
         <a class="pop list-group-item list-group-item-action flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="or mb-1"><strong><bold><u>Système gestion bases de données</u></bold></strong></h5>
           </div>
-          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+          <p class="mb-1">MySQL, PHPMyAdmin, Oracle.</p>
           <small class="text-muted">Données pouvant être mises à jour.</small>
         </a>
       </div>
@@ -303,7 +304,8 @@
 
             <div class="ten columns">
 
-                  <p class="lead">Pour de plus amples informations, n'hésitez pas à me contacter à l'adresse Gabin.salabert3@laposte.net ou à laisser un message ici. Vous pouvez aussi accèder à mon Github afin d'avoir les détails de mes projets en cours et de mes réalisations.. Bonne continuation et merci d'avoir consulté mon site !
+                  <p class="lead">Pour de plus amples informations, n'hésitez pas à me contacter à l'adresse Gabin.salabert3@laposte.net ou à laisser un message ici. Vous pouvez aussi accèder à mon Github afin d'avoir les détails de mes projets en cours et de mes réalisations.. Bonne continuation et merci d'avoir consulté mon site ! </br>
+                  CE SERVICE NE FONCTIONNE PAS ACTUELLEMENT !
                   </p>
 
             </div>
@@ -315,7 +317,7 @@
             <div id="form" class="eight columns">
 
                <!-- form -->
-               <form action="send_mail.php" method="post" id="contactForm" name="contactForm">
+               <form method="post" action="send_mail.php" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
