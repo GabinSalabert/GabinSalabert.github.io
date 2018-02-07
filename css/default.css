@@ -142,7 +142,8 @@ html {
 }
 
 body {
-   background: #fff;
+   background: black !important;
+   background-repeat: repeat !important;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
    font-size: 15px;
@@ -805,6 +806,8 @@ properly.
 /*  Colors -------------------------------------------------------- */
 
 #etudiant{
+   font: 30px/1.1em 'opensans-bold', sans-serif;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
    color: #E96906;
 }
 
@@ -858,8 +861,7 @@ properly.
 /*  Carousel -------------------------------------------------------- */
 
 .carousel{
-    background: #130101;
-    margin-top: 20px;
+   margin-top: 20px;
 }
 .carousel .item{
     /*min-height: 280px;  Prevent carousel from being distorted if for some reason image doesn't load */
@@ -873,7 +875,7 @@ properly.
    margin: 20px;
 }
 .carousel-inner{
-    height: 150% !important;
+    height: 650px !important;
 }
 
 .img-fluid{

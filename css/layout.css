@@ -22,22 +22,29 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
-
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */ 
+
+.scrollable{
+  overflow-y: scroll !important;
+}
+
+.notscrollable{
+  overflow: hidden;
+}
 
 header {
    position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/wp2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   margin-bottom: -10px;
 }
 
 /* vertically center banner section */
@@ -66,11 +73,15 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   /*text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;*/
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   color: white;
+   background: transparent;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
+
+
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
@@ -89,12 +100,38 @@ header .social {
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
+
+.fa-twitter{
+  color: #00aced !important;
+}
+
+.fa-linkedin{
+  color: #007bb6 !important;
+}
+
+.fa-instagram{
+  color: #f2cd92 !important;
+}
+
+.fa-pinterest{
+  color: #cb2027 !important;
+}
+
+.fa-github{
+  color: white !important;
+}
+
 header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
+   width: 50px;
 }
-header .social li a { color: #fff; }
+
+header .social li a { 
+  color: #E96906; 
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
 header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
@@ -187,7 +224,13 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background-image: url(../images/wp5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 
@@ -195,14 +238,31 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
-   background: #100501;
+/*#resume {
+   position: relative;
+   background: url(../images/wp6.jpg) !important;
+   background-size: cover;
+   -webkit-background-size: cover;
+   background-repeat: no-repeat !important;
    margin-top: 20px;
    padding-top: 70px;
    padding-bottom: 72px;
    padding-left: 20%;
    padding-right: 20%;
    overflow: hidden;
+}*/
+
+#resume{
+  margin:0;
+  padding:0;
+  background: url(../images/wp6.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+  margin-top: 10px;
+  padding-top: 70px;
+  padding-bottom: 72px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .hop{
@@ -383,10 +443,12 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #130101;
-   margin-top: 20px;
-   padding-top: 90px;
-   padding-bottom: 60px;
+  background-image: url(../images/wp4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 
 .list-group{
@@ -395,6 +457,7 @@ ul#nav li.current a { color: #F06000; }
    align-items: center !important;
    justify-content: center !important;
    text-align: center !important;
+   width: 100%;
 }
 
 #ttt{
@@ -797,7 +860,7 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: white;
-   margin-top: 20px;
+   margin-top: 10px;
 }
 
 .pop{
@@ -808,6 +871,7 @@ call-to-action .button {
 .or{
   color: #E96906 !important;
 }
+
 
 #ctact{
    display: flex !important;
@@ -951,6 +1015,7 @@ call-to-action .button {
 }
 
 #res{
+  color: red !important;
   margin-left: 15%;
 }
 
@@ -964,16 +1029,11 @@ footer {
    align-items: center !important;
    justify-content: center !important;
    padding-top: 48px;
-   margin-bottom: 20px;
    color: black;
    background: #E96906 !important;
    font-size: 14px;
    text-align: center;
    position: relative;
-}
-
-body{
-  background-color: #E96906 !important;
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -988,7 +1048,7 @@ footer .copyright {
 footer .copyright li {
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding-bottom: 3%;
     line-height: 24px;
 }
 .ie footer .copyright li {
