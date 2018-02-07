@@ -205,6 +205,11 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
+.hop{
+  display: flex !important;
+  flex-direction: row !important; 
+}
+
 #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
@@ -394,6 +399,14 @@ ul#nav li.current a { color: #F06000; }
 
 #ttt{
   margin-left: 8%;
+}
+
+#portfolio p{
+  color: white;
+}
+
+#portfolio small{
+  color: red;
 }
 
 #portfolio h1 {
@@ -787,6 +800,15 @@ call-to-action .button {
    margin-top: 20px;
 }
 
+.pop{
+  background-color: #373233 !important;
+  width: 70%;
+}
+
+.or{
+  color: #E96906 !important;
+}
+
 #ctact{
    display: flex !important;
    flex-direction: row !important;
@@ -849,7 +871,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: #373233; //ici
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -950,7 +972,7 @@ footer {
 }
 
 body{
-  background-color: #c96e23 !important;
+  background-color: #E96906 !important;
 }
 
 footer a, footer a:visited { color: #525252; }
