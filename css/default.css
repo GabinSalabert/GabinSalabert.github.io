@@ -875,6 +875,7 @@ properly.
    margin: 20px;
 }
 .carousel-inner{
+   margin-top: 10%;
     height: 650px !important;
 }
 

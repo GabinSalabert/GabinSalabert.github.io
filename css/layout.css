@@ -225,10 +225,10 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    position: relative;
-   height: 800px;
+   height: 1000px;
    min-height: 500px;
    width: 100%;
-   background-image: url(../images/wp5.jpg);
+   background-image: url(../images/bg2.png);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -252,7 +252,15 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }*/
 
+.bgtrain{
+  background-color: #ffe1ad;
+}
+
 #resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin:0;
   padding:0;
   background: url(../images/wp6.jpg) no-repeat center fixed; 
@@ -277,7 +285,7 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #E96906;
+   color: black;
 }
 #resume h1 span {
    border-bottom: 3px solid #6E7881;
@@ -327,6 +335,7 @@ ul#nav li.current a { color: #F06000; }
   	margin-top: 36px;
    list-style: none;
 }
+
 .bars li {
    position: relative;
   	margin-bottom: 60px;
@@ -336,18 +345,18 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #6E7881;
+   color: black;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	margin-top: -15%;
 }
 .bar-expand {
    position: absolute;
    left: 0;
    top: 0;
-
+   border: 2px solid black;
    margin: 0;
    padding-right: 24px;
   	background: #E96906;
@@ -443,7 +452,13 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
   background-image: url(../images/wp4.png);
+  -webkit-background-size: cover !important;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 10px;
@@ -1030,7 +1045,7 @@ footer {
    justify-content: center !important;
    padding-top: 48px;
    color: black;
-   background: #E96906 !important;
+   background: #373233 !important;
    font-size: 14px;
    text-align: center;
    position: relative;
