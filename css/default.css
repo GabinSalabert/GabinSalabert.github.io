@@ -864,7 +864,7 @@ properly.
    margin-top: 20px;
 }
 .carousel .item{
-    /*min-height: 280px;  Prevent carousel from being distorted if for some reason image doesn't load */
+    /*min-height: 280px;  Prevent carousel from being distorted if for some reason image doesn't load*/
     margin: 10%;
     height: 100% !important;
 }
@@ -875,7 +875,6 @@ properly.
    margin: 20px;
 }
 .carousel-inner{
-   margin-top: 10%;
     height: 650px !important;
 }
 
