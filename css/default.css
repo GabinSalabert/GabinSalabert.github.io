@@ -142,7 +142,7 @@ html {
 }
 
 body {
-   background: black !important;
+   background: #E96906 !important;
    background-repeat: repeat !important;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
@@ -861,21 +861,23 @@ properly.
 /*  Carousel -------------------------------------------------------- */
 
 .carousel{
-   margin-top: 20px;
+   margin-top: 10px;
 }
 .carousel .item{
     /*min-height: 280px;  Prevent carousel from being distorted if for some reason image doesn't load*/
     margin: 10%;
     height: 100% !important;
 }
-.carousel .item img{
-    margin-left: 38%;
-}
+
 .bs-example{
    margin: 20px;
 }
 .carousel-inner{
-    height: 650px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh !important;
 }
 
 .img-fluid{
@@ -894,3 +896,6 @@ properly.
 #sok2{
    height: 400% !important;
 }
+
+
+
