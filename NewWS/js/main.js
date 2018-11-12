@@ -84,10 +84,18 @@
 								el.addClass('fadeInUp animated');
 							}
 
+							if(el.hasClass('container-skillbar')){
+								jQuery('.skillbar').each(function(){
+									//jQuery(this).find('.skillbar-bar').css("width", "194px;");
+									jQuery(this).find('.skillbar-bar').animate({
+										width:jQuery(this).attr('data-percent')
+									},3000);
+								});
+							}
+
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );
 					});
-					
 				}, 100);
 				
 			}
