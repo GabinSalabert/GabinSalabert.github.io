@@ -48,6 +48,7 @@
 	<!-- Fichier CSS  -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/skillsbar.css">
+	<link rel="stylesheet" href="css/carousel.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -309,6 +310,45 @@
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta"> Countries visited </span>
+							<h2 class="colorlib-heading animate-box">Trips</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>I'm a big fan of traveling, really interested in historically and culturally powerful countries. Here are some glimpses of where I went. The list : Russia, England, Scotland, Spain, Portugal, Italia, South Africa, United States.</p>
+						</div>
+					</div>
+
+				<!--Allégrement copié sur un compte github, mais c'est superbe !-->
+				<div id="music-container"></div>
+				<div id="drag-container">
+				  <div id="spin-container">
+				    <!-- Add your images (or video) here -->
+				    <img src="images/stpe.jpg" alt="">
+				    <img src="images/lodon.jpg" alt="">
+				    <img src="images/portugal.jpg" alt="">
+				    <img src="images/edin.jpg" alt="">
+				    <img src="images/espagne.jpg" alt="">
+				    <img src="images/italie.jpg" alt="">
+				    <img src="images/afs.jpg" alt="">
+				    <img src="images/lv.jpg" alt="">
+				    
+
+				    <!-- Text at center of ground -->
+				  </div>
+			  		<div id="ground"></div>
+				</div>
+
+			</div>
+			</section>
+
+
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">Technical level estimate </span>
 							<h2 class="colorlib-heading animate-box">My Skills</h2>
 						</div>
@@ -318,7 +358,10 @@
 							<p>All those languages have been used at least once as part of my personal and school projects or during a traineeship. Don't hesitate to visit my Github to get a clearer idea of what i'm able to do and which tools I usually work with. Moreover, you can see some quick examples of my achievements in my web site's last section. Enjoy !</p>
 						</div>
 					</div>
+					<div style="height: 30px;">
+					</div>
 				    <div class="row active-with-click">
+				      
 				        <div class="col-md-4 col-sm-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
 				            <article class="material-card Orange">
 				                <h2>
@@ -917,7 +960,7 @@
 											<div class="desc">
 												<div class="con" onclick="window.open('images/groups.png', '_blank');">
 													<h3><a target="_blank" href="images/groups.png">Groups managers for SiteW</a></h3>
-													<span>Coded with HTML5/CSS3/jQuerry during my traineeship. </br> - Smart pagination, dynamic search bar, sorting, checkboxes for grouped actions, etc.</span>
+													<span>Coded with HTML5/CSS3/jQuerry and PHP with MVC pattern during my traineeship. </br> - Smart pagination, dynamic search bar, sorting, checkboxes for grouped actions, etc.</span>
 												</div>
 											</div>
 										</div>
@@ -927,7 +970,7 @@
 											<div class="desc">
 												<div class="con" onclick="window.open('images/Home.png', '_blank');">
 													<h3><a target="_blank" href="images/Home.png">Schedule Manager for my school's administration.</a></h3>
-													<span>Coded with HTML5/CSS3/jQuerry during my 1st year as Engineer student. </br> - Smart validation for new/edited classes (hours, < 8 a day, prof, DW groups), CSV exporting, real time schedule, 3 types of account and rights (Prof, student, admin), students managing only for admin (add, edit, delete).</span>
+													<span>Coded with HTML5/CSS3/jQuerry and PHP with MVC pattern during my 1st year as Engineer student. </br> - Smart validation for new/edited classes (hours, < 8 a day, prof, DW groups), CSV exporting, real time schedule, 3 types of account and rights (Prof, student, admin), students managing only for admin (add, edit, delete).</span>
 												</div>
 											</div>
 										</div>
@@ -1005,6 +1048,7 @@
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 	<script src="js/skillsbar.js"></script>
+	<script src="js/carousel.js"></script>
 
 	<!-- <script language=JavaScript>
 		var message = "Nop, don't ";
