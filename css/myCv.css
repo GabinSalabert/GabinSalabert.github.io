@@ -18,7 +18,7 @@ html, body {
     /*  Disable scrollbars */
     display: block;
     cursor: crosshair;
-    /* No floating content on sides */
+    /* No floating content on sides */  
 }
 
 .banner{
